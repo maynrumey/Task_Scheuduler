@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="fab_margin">30dp</dimen>
+    <dimen name="dimen_60">75dp</dimen>
+    <dimen name="dimen_70">65dp</dimen>
+    <dimen name="recycler_padding">8dp</dimen>
+
+</resources>

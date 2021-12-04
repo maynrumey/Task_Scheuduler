@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:minHeight="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue_mine"
+    android:id="@+id/myCustomToolbar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+   >
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/tasks"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_scheduler"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Task Scheduler</string>
+
+    <string name="image_description">button image</string>
+    <string name="task_description">Task</string>
+    <string name="due_date_text">Due Date</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="next_week">Next Week</string>
+    <string name="task_scheduler">Task Scheduler</string>
+    <string name="app_description">This is a well design and well developed todo App.\n
+                                    You can organize your task with defining due date,\n
+                                    This app will help you make your life more organize.</string>
+    <string name="copyright">Design and Developed by:\n
+                             &#169; MAYN 2021</string>
+
+</resources>
