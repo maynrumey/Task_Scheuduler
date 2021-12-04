@@ -196,7 +196,7 @@ public class BottomSheetFragment extends BottomSheetDialogFragment implements Vi
             }
 
             // Checking Priority High or Low
-            if (dueDate == dateCreated){
+            if (dueDate.getDate() == dateCreated.getDate()){
                 priority = Priority.HIGH;
             }else {
                 priority = Priority.LOW;
