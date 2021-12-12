@@ -189,6 +189,7 @@ public class BottomSheetFragment extends BottomSheetDialogFragment implements Vi
 
             //Set Date Created as today
             dateCreated = Calendar.getInstance().getTime();
+            Utils.formatDate(dateCreated);
 
             //Creating default due date- if not selected
             if (dueDate == null){
@@ -196,7 +197,7 @@ public class BottomSheetFragment extends BottomSheetDialogFragment implements Vi
             }
 
             // Checking Priority High or Low
-            if (dueDate.getDate() == dateCreated.getDate()){
+            if (dateCreated.compareTo(dueDate) >= 0 ){
                 priority = Priority.HIGH;
             }else {
                 priority = Priority.LOW;

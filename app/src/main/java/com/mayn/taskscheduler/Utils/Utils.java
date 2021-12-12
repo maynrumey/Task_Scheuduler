@@ -9,17 +9,21 @@ import android.view.inputmethod.InputMethodManager;
 import com.mayn.taskscheduler.Entity.Priority;
 import com.mayn.taskscheduler.Entity.Task;
 
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 public class Utils {
 
     public static String formatDate(Date date){
 
-        SimpleDateFormat simpleDateFormat = (SimpleDateFormat) SimpleDateFormat.getDateInstance();
+//        SimpleDateFormat simpleDateFormat = (SimpleDateFormat) SimpleDateFormat.getDateInstance();
+//
+//        //Applying Date Pattern
+//        simpleDateFormat.applyPattern("EEE, MMM d, HH:mm a");
 
-        //Applying Date Pattern
-        simpleDateFormat.applyPattern("EEE, MMM d, HH:mm a");
+        DateFormat simpleDateFormat = DateFormat.getDateTimeInstance(DateFormat.DEFAULT, DateFormat.SHORT, Locale.getDefault());
 
         return simpleDateFormat.format(date);
     }
